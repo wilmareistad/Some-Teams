@@ -2,8 +2,12 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-family: sans-serif;
-    color: #f5f5f5;
+    color: #1A2A40;
     margin: 30px 0;
+}
+
+h1, h2 {
+    color: #FF6F61;
 }
 
 .logo {
@@ -21,12 +25,12 @@ h1 {
 }
 
 .team-box {
-    border: 1px solid #1A2A40;
+    border: 2px solid #FF9E1B;
     border-radius: 20px;
     padding: 20px;
     width: 200px;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #FFF1E6;
 }
 
 .team-box h2 {
@@ -41,7 +45,7 @@ h1 {
 }
 
 .links a {
-    color: #f5f5f5;
+    color: #FFF1E6;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -55,15 +59,16 @@ h1 {
 }
 
 .links a:hover {
-    color: #26ae04;
+    color: #FFD166;
 }
 
 body {
-    background-color: #2a4fbe;
+    background-color: #FFF1E6;
     font-family: sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    color: #1A2A40;
 }
 
 .linklogo {
@@ -99,10 +104,33 @@ header {
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #f5f5f5;
+    color: #FFF1E6;
+    background-color: #1A2A40;
 }
 
 
 .team-box:hover {
-    background-color: rgb(210, 200, 255);
+    background-color: #FFD166;
+}
+
+.about-h2 {
+    color: black;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.container-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.picture-me {
+    border-radius: 15px;
+    height: 60vh;
+    margin: 20px;
+}
+
+.container.about-h2 {
+
 }
