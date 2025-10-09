@@ -7,7 +7,7 @@ h1 {
 }
 
 h1, h2 {
-    color: #FF6F61;
+    color: #3d0400;
 }
 
 .logo {
@@ -200,3 +200,32 @@ footer {
     color: #FFD166;
 }
 
+.team-box-information {
+    border: 2px solid #FF9E1B;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    text-align: start;
+    background-color: #FFF1E6;
+
+}
+
+.logo-information {
+    width: 160px;
+    height: auto;
+    max-height: 160px;
+}
+
+.teams-information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info-information {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

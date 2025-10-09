@@ -9,6 +9,7 @@
             <div class="nav-links">
                 <a href="index.php">Start</a>
                 <a href="about.php">About</a>
+                <a href="information.php">Information</a>
             </div>
         </div>
     </nav>

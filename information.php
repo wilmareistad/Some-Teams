@@ -19,14 +19,24 @@
     <?php require __DIR__ . '/data.php' ?>
 
     <ul>
-        <main class="teams">
+        <main class="teams-information">
             <?php foreach ($teams as $team) : ?>
-                <div class="team-box">
-                    <img src="<?php echo $team['logo']; ?>" alt="<?php echo $team['league']; ?>" class="logo">
+                <div class="team-box-information">
+                    <div class="info-information">
+                        <img src="<?php echo $team['logo']; ?>" alt="<?php echo $team['league']; ?>" class="logo-information">
+                        <h2> <?php echo $team['city']; ?> </h2>
+                        <h2><?php echo "Ranking:" . $team['uefa-coefficient-ranking'] ?></h2>
+                        <h2>Opponents:</h2>
+                        <ul>
+                            <?php foreach ($team['opponents'] as $opponent) : ?>
+                                <li><?php echo $opponent; ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
                     <a class="linklogo" href="<?php echo $team['url'] ?>" target="_blank">
                         <h2><?php echo $team['league']; ?></h2>
                     </a>
-                    <!-- <p><?php echo $team['city']; ?></p> -->
+
 
                 </div>
             <?php endforeach; ?>
