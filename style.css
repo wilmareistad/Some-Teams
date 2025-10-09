@@ -44,6 +44,18 @@ h1, h2 {
     text-align: start;
 }
 
+.logga {
+    height: 55px;
+}
+
+.container-logga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+
 .links a {
     color: #FFF1E6;
     text-decoration: none;
@@ -61,6 +73,19 @@ h1, h2 {
 .links a:hover {
     color: #FFD166;
 }
+
+.about-links {
+    background-color: #FFF1E6;
+    padding: 20px 40px;
+}
+
+.about-links a {
+color: #1A2A40;
+text-decoration: none;
+font-weight: bold;
+margin-top: 40px;
+}
+
 
 body {
     background-color: #FFF1E6;
@@ -116,13 +141,31 @@ footer {
 .about-h2 {
     color: black;
     font-weight: normal;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container-me {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.container-me p {
+    margin: 20px;
+}
+
+.container-me h3 {
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+.container-me ul {
+    align-self: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .picture-me {
@@ -132,5 +175,28 @@ footer {
 }
 
 .container.about-h2 {
-
+    display: flex;
 }
+
+.hi {
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a{
+    color: #1A2A40;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+    position: relative;
+    top: -2px;
+}
+
+.nav-links a:hover {
+    color: #FFD166;
+}
+
