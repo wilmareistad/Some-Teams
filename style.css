@@ -45,22 +45,23 @@ h1, h2 {
 }
 
 .logga {
-    height: 55px;
+    height: 70px;
 }
 
 .container-logga {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+
    
 }
 
 .links a {
     color: #FFF1E6;
     text-decoration: none;
-    margin: 0 15px;
+    margin-left: 30px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .links {
@@ -75,15 +76,17 @@ h1, h2 {
 }
 
 .about-links {
-    background-color: #FFF1E6;
+    background-color: #1A2A40;
     padding: 20px 40px;
+    color: #FFF1E6;
+    border-bottom: 5px solid #FF9E1B;
 }
 
 .about-links a {
-color: #1A2A40;
+color: #FFF1E6;
 text-decoration: none;
 font-weight: bold;
-margin-top: 40px;
+margin-top: 20px;
 }
 
 
@@ -188,7 +191,7 @@ footer {
 }
 
 .nav-links a{
-    color: #1A2A40;
+    color: #FFF1E6;
     text-decoration: none;
     font-weight: bold;
     margin-left: 30px;
@@ -228,4 +231,16 @@ footer {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.container-me p {
+    font-size: 20px;
+}
+
+.hobbylist {
+    font-size: 20px;
+}
+
+.container-me h3 {
+    font-size: 30px;
 }

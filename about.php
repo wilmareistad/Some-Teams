@@ -24,14 +24,15 @@
         <img class="picture-me" src="IMG_0429.jpeg" alt="Jag">
         <div>
             <h3>Mina intressen</h3>
-            <ul>
+            <ul class="hobbylist">
                 <li>Löpning</li>
                 <li>Klättring</li>
                 <li>Mat</li>
                 <li>Resa</li>
                 <li>Testa nya saker</li>
             </ul>
-            <p>Mitt namn är Wilma och jag är ursprungligen från en liten håla vid namn Jörlanda som ligger i Stenungsundskommun. Jag är uppväxt på hästgård och har tävlat och tränat ridning största delen av livet. Jag har dock slutat nu och nu är mina största intressen löpning, klättring samt mat.</p>
+            <p>Mitt namn är Wilma, jag är 22år och pluggar webbutveckling på Yrgo. När jag inte är i skolan eller pluggar så umgås jag gärna med vänner, min sambo eller tränar. Jag gillar också mat och resa mycket samt att testa nya saker.</p>
+            <p>Som person är jag social, nyfiken och kreativ.</p>
         </div>
     </div>
 

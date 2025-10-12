@@ -25,7 +25,9 @@
                     <div class="info-information">
                         <img src="<?php echo $team['logo']; ?>" alt="<?php echo $team['league']; ?>" class="logo-information">
                         <h2> <?php echo $team['city']; ?> </h2>
+                        <p>---</p>
                         <h2><?php echo "Ranking:" . $team['uefa-coefficient-ranking'] ?></h2>
+                        <p>---</p>
                         <h2>Opponents:</h2>
                         <ul>
                             <?php foreach ($team['opponents'] as $opponent) : ?>
