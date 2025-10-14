@@ -33,6 +33,11 @@
             </ul>
             <p>Mitt namn är Wilma, jag är 22år och pluggar webbutveckling på Yrgo. När jag inte är i skolan eller pluggar så umgås jag gärna med vänner, min sambo eller tränar. Jag gillar också mat och resa mycket samt att testa nya saker.</p>
             <p>Som person är jag social, nyfiken och kreativ.</p>
+            <h3>Kontakt</h3>
+            <ul class="hobbylist">
+                <li>Mejl: wilmareistad@icloud.com</li>
+                <li>Telefon: 0707183568</li>
+            </ul>
         </div>
     </div>
 
