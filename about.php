@@ -5,11 +5,11 @@
 <body>
     <nav class="about-links">
         <div class="container-logga">
-            <img class="logga" src="logga.png" alt="Logga">
+            <img class="logga" src="logga1.png" alt="Logga">
             <div class="nav-links">
                 <a href="index.php">Start</a>
-                <a href="about.php">About</a>
                 <a href="information.php">Information</a>
+                <a href="about.php">About</a>
             </div>
         </div>
     </nav>
@@ -35,8 +35,6 @@
             <p>Som person är jag social, nyfiken och kreativ.</p>
         </div>
     </div>
-
-    <!-- <p><a href="index.php">Tillbaka till startsidan</a></p> -->
 
     <?php require __DIR__ . '/footer.php'; ?>
 

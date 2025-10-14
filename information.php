@@ -12,8 +12,8 @@
     </header>
     <nav class="links">
         <a href="index.php">Start</a>
-        <a href="about.php">About</a>
         <a href="information.php">Information</a>
+        <a href="about.php">About</a>
     </nav>
     <h1>Explore Football Teams</h1>
     <?php require __DIR__ . '/data.php' ?>
@@ -25,9 +25,9 @@
                     <div class="info-information">
                         <img src="<?php echo $team['logo']; ?>" alt="<?php echo $team['league']; ?>" class="logo-information">
                         <h2> <?php echo $team['city']; ?> </h2>
-                        <p>---</p>
+                        <p></p>
                         <h2><?php echo "Ranking:" . $team['uefa-coefficient-ranking'] ?></h2>
-                        <p>---</p>
+                        <p></p>
                         <h2>Opponents:</h2>
                         <ul>
                             <?php foreach ($team['opponents'] as $opponent) : ?>

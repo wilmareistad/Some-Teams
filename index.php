@@ -12,8 +12,8 @@
     </header>
     <nav class="links">
         <a href="index.php">Start</a>
-        <a href="about.php">About</a>
         <a href="information.php">Information</a>
+        <a href="about.php">About</a>
     </nav>
     <h1>Explore Football Teams</h1>
     <?php require __DIR__ . '/data.php' ?>
@@ -23,7 +23,7 @@
             <?php foreach ($teams as $team) : ?>
                 <div class="team-box">
                     <img src="<?php echo $team['logo']; ?>" alt="<?php echo $team['league']; ?>" class="logo">
-                    <a class="linklogo" href="<?php echo $team['url'] ?>" target="_blank">
+                    <a class="linklogo" href="information.php?team=<?php echo urlencode($team['league']); ?>">
                         <h2><?php echo $team['league']; ?></h2>
                     </a>
                     <!-- <p><?php echo $team['city']; ?></p> -->
